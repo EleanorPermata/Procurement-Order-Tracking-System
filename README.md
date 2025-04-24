@@ -62,6 +62,6 @@ This project emphasizes:
 
 1. Download the full project ZIP file.
 2. Open the folder in any Java IDE (e.g., NetBeans).
-3. Compile and run the folder `Final`.
+3. Compile and run the folder `Final Java`.
 4. Follow the terminal-based menu options to navigate.
 
