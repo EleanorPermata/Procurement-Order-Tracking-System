@@ -12,7 +12,14 @@ This project emphasizes:
 - File-based data management
 - Modular and maintainable code structure
 
-## User Roles & Access Rights
+## ❓How to Compile & Run
+
+1. Download the full project ZIP file.
+2. Open the folder in any Java IDE (e.g., NetBeans).
+3. Compile and run the folder `Final Java`.
+4. Follow the terminal-based menu options to navigate.
+
+## 👥User Roles & Access Rights
 
 | Role | Key Functionalities |
 |------|---------------------|
@@ -23,45 +30,33 @@ This project emphasizes:
 | **Finance Manager (FM)** | Approve/reject POs, process payments, track supplier payments, view stock status |
 
 ## Features
-
-### Login System
+**Login System**
 - Secure login with validation
 - Role-based access with individual user IDs
 - User data stored in `users.txt`
 
-### Item & Supplier Management
+**Item & Supplier Management**
 - Add/edit/delete items and suppliers
 - Prevent duplicate entries
 - Items linked to registered suppliers only
 
-### Daily Sales Entry
+**Daily Sales Entry**
 - Sales Managers can record daily item-wise sales
 - Sales affect stock levels
 
-### Purchase Requisition (PR)
+**Purchase Requisition (PR)**
 - SMs can create PRs with item code, quantity, due date
 - System fetches linked supplier
 - Each PR has a unique ID and is tracked
 
-### Purchase Order (PO)
+**Purchase Order (PO)**
 - POs generated only by PMs from approved PRs
 - Includes tracking of the PM and supplier
 - Viewable list of all POs by authorized roles
 
-### Finance Operations
+**Finance Operations**
 - FMs verify stock updates and approve/reject POs
 - Payment processing and supplier payment tracking
 
-## Data Storage
-
-- All data (users, items, suppliers, PRs, POs) is saved in text files
-- Easy to back up and migrate
-- Ensures portability and simplicity for evaluation
-
-## ❓How to Compile & Run
-
-1. Download the full project ZIP file.
-2. Open the folder in any Java IDE (e.g., NetBeans).
-3. Compile and run the folder `Final Java`.
-4. Follow the terminal-based menu options to navigate.
-
+## 📂Data Storage
+All data (users, items, suppliers, PRs, POs) is saved in text files
